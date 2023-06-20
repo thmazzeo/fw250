@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"
+    <meta name="viewport"
+    content="width=device-width">
+    <title>Games</title>
+</head>
+
+<body>
+<div id="container">
+    <header id="titulo">
+        <h1>Flamengo dos Games</h1>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Quem Somos</a></li>
+            <li><a href="">Consoles</a></li>
+            <li><a href="">Jogos</a></li>
+            <li><a href="">Retro</a></li>
+            <li><a href="">Vídeos</a></li>
+            <li><a href="hahhh.html">Fale Conosco</a></li>
+
+        </ul>
+    </nav>
+    <section>
+        <section>
+            <h1>Contato</h1>
+        </section>
+
+    <form action="" method="post">
+        <fieldset class="grupo">    
+            <legend>Dados Pessoais</legend>
+            <div class="formulario">
+                <label for="nome">Nome</label>  
+                <input type="text" id="nome" placeholder="Nome de quem comerei" required>
+            </div>
+            <h1></h1>
+            <div class="formulario">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email de quem comerei" required>
+            </div>
+            <h1></h1>
+            <div class="formulario">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" min="16" placeholder="Idade de quem comerei" required>
+            </div>
+            <div class="formulario">
+                <label for="sexo">Sexo</label>
+                <input type="radio" name="sexo" id="masculino" checked><label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino"><label for="feminino">Feminino</label>
+            </div>
+            <div class="formulario">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" placeholder="Telefone de quem comerei">
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <legend>Mensagem</legend>
+            <div class="formulario"></div>
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                    <option>Críticas</option>
+                    <option>Sugestões</option>
+                    <option>Reclamações</option>
+                    <option>Compras</option>
+                </select>
+            </div>
+            <div class="formulario"></div>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="6"></textarea>
+        </fieldset>
+        </fieldset>
+        <fieldset class="grupo">
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+    </form>
+    </section>
+
+</div>    
+</body>
+</html>

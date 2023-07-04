@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<body id="">
+    <header id="titulo">
+        <h1>Flamengos Games</h1>
+    </header>
+    <nav id="menu">
+        <ul>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            <li><a href="sobrenos.html">Quem Somos</a></li>
+            <li><a href="consoles.html">Consoles</a></li>
+            <li><a href="jogos.html">Jogos</a></li>
+            <li><a href="retro.html">Retro</a></li>
+            <li><a href="videos.html">Vídeos</a></li>
+            <li><a href="faleconosco.html">Fale Conosco</a></li>
+
+            </ul>
+
+        </ul>
+
+    </nav>
+
+
+
+    <section>
+        <section>
+            <h1>Contato</h1>
+        </section>
+
+    <form action="" method="post">
+        <fieldset class="grupo">    
+            <legend>Dados Pessoais</legend>
+            <div class="formulario">
+                <label for="nome">Nome:</label>  
+                <input type="text" id="nome" placeholder="Insira Seu Nome" required>
+            </div>
+            <h1></h1>
+            <div class="formulario">
+                <label for="email" id="email2" >E-mail:</label>
+                <input type="email" id="email" placeholder="Insira Seu E-mail" required>
+            </div>
+            <h1></h1>
+            <div class="formulario">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" min="16" placeholder="Insira Sua Idade" required>
+            </div>
+
+            <div class="formulario">
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" id="masculino" checked><label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino"><label for="feminino">Feminino</label>
+            </div>
+
+            <div class="formulario">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="Telefone" placeholder="Insira Seu Telefone">
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <legend>Mensagem</legend>
+            <div class="formulario">
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                    <option>Críticas</option>
+                    <option>Sugestões</option>
+                    <option>Reclamações</option>
+                    <option>Compras</option>
+                    <option>Outros</option>
+                </select>
+            </div>
+            <div class="formulario">
+                <textarea id="mensagem" cols="30" rows="6"></textarea>
+            </div>
+        </fieldset>
+
+        
+
+
+        <fieldset class="grupo">
+            <button type="submit" id="enviar">Enviar</button>
+        </fieldset>
+
+    </form>
+    </section>
+
+    <footer>
+        <h3>Todos os Direitos Reservados ao Flamengo</h3>
+    </footer>
+
+</body>
+</html>
